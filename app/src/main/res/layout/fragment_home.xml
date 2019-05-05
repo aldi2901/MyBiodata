@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eceff1"
+    tools:context=".Fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rl1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/img_profile"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:tint="#8e0000"
+                    android:src="@drawable/ic_person_black_24dp" />
+
+                <TextView
+                    android:layout_below="@+id/img_profile"
+                    android:id="@+id/tv_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_weight="1"
+                    android:text="Profile"
+                    android:textSize="14sp"
+                    android:textColor="#8e0000"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/img_daily"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:tint="#8e0000"
+                    android:src="@drawable/ic_directions_walk_black_24dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Daily Activity"
+                    android:textColor="#8e0000"
+                    android:textSize="14sp"
+                    android:layout_below="@id/img_daily"
+                    android:textAlignment="center" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/img_interest"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_bubble_chart_black_24dp"
+                    android:tint="#8e0000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img_interest"
+                    android:layout_centerInParent="true"
+                    android:layout_weight="1"
+                    android:text="Interest"
+                    android:textSize="14sp"
+                    android:textColor="#8e0000"
+                    android:textAlignment="center" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:id="@+id/rl4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/img_msuicVideo"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:tint="#8e0000"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_music_video_black_24dp" />
+
+                <TextView
+                    android:layout_below="@+id/img_msuicVideo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_weight="1"
+                    android:text="Profile"
+                    android:textSize="14sp"
+                    android:textColor="#8e0000"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/img_gallery"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_menu_gallery"
+                    android:tint="#8e0000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Gallery"
+                    android:layout_below="@id/img_gallery"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textColor="#8e0000"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

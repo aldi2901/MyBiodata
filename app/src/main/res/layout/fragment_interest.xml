@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eceff1"
+    android:padding="20dp"
+    tools:context=".Fragments.InterestFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/char2"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="@android:color/white">
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:text="Hobby : Photography, Games, Codeing Android"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="Makanan kesukaan : Nasi Goreng"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:text="Minuman Kesukaan : Teh Manis"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/desc_interest"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:text="Cita-cita : Founder Start-up"
+                android:layout_marginBottom="8dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

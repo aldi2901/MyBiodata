@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Biodata</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Aldi Jayadi</string>
+    <string name="nav_header_subtitle">aldi.jayadi29@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_descDiri">Saya Aldi Jayadi, Mahasiswa Universitas Komputer Indonesia jurusan Teknik Informatika.</string>
+    <string name="desc_interest">Interest : Saat ini saya sangat tertarik belajar pemrograman android karena menurut sata merupakan pemrograman paling simple diantara yang lainnya</string>
+</resources>
